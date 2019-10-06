@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/webapp-tomcat/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/webapp-tomcat" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/java" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/webapp-wildfly/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/webapp-wildfly" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/java" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <datasource-mapping>
+          <factory-entry name="default" />
+        </datasource-mapping>
+        <naming-strategy-map />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/resources/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/java/org/olat/shibboleth/_spring/shibbolethContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/user/propertyhandlers/_spring/userPropertriesHandlersContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/assessment/_spring/assessmentContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/modules/video/_spring/videoContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/commons/services/sms/_spring/smsCorecontext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/commons/coordinate/cluster/_spring/coordinateContext.xml</file>
+          <file>file://$MODULE_DIR$/java/de/bps/olat/user/_spring/changeEmailContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/upgrade/_spring/databaseUpgradeContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/nodes/gotomeeting/_spring/buildingblockContext.xml</file>
+          <file>file://$MODULE_DIR$/java/de/bps/course/nodes/ll/_spring/buildingblockContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/basesecurity/_spring/baseSecurityContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/util/mail/_spring/mailContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/certificate/_spring/certificateJms_jndi.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/_spring/courseContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/gui/control/_spring/sitedefContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/commons/services/jmx/_spring/jmxContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/nodes/openmeetings/_spring/buildingblockContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/nodes/basiclti/_spring/basicLtiContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/resource/accesscontrol/_spring/acContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/config/ui/courselayout/_spring/courseLayoutContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/commons/servlets/_spring/staticContext.xml</file>
+          <file>file://$MODULE_DIR$/java/de/bps/course/nodes/den/_spring/buildingblockContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/user/_spring/userContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/note/_spring/noteContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/modules/iq/_spring/iqContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/_spring/mainCorecontext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/gui/components/form/flexible/impl/elements/richText/_spring/richTextCorecontext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/nodes/info/_spring/infoMessageContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/nodes/vitero/_spring/buildingblockContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/dispatcher/_spring/dispatcherContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/logging/_spring/loggingCorecontext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/commons/services/taskexecutor/_spring/taskExecutorCorecontext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/portfolio/_spring/portfolioContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/commons/controllers/resume/_spring/resumeCorecontext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/nodes/card2brain/_spring/card2brainContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/gui/control/_spring/fullWebAppContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/_spring/mainContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/search/_spring/searchJms_activemq.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/nodes/adobeconnect/_spring/buildingblockContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/modules/lecture/_spring/lectureContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/resource/accesscontrol/provider/paypalcheckout/_spring/paypalCheckoutContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/admin/landingpages/_spring/landingPagesContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/search/_spring/searchContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/commons/fullWebApp/util/_spring/StickyMessageCorecontext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/certificate/_spring/certificateContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/statistic/_spring/statisticsJobContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/util/_spring/utilCorecontext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/modules/wiki/_spring/wikiContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/nodes/edubase/_spring/edubaseContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/certificate/_spring/certificateJms_activemq.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/nodes/_spring/buildingblockContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/nodes/portfolio/_spring/portfolioBBContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/commons/services/webdav/_spring/webdavContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/fileresource/_spring/fileresourceContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/registration/_spring/registrationContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/_spring/extensionContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/search/_spring/searchJms_jndi.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/commons/coordinate/cluster/_spring/coordinate_jms_jndi.xml</file>
+          <file>file://$MODULE_DIR$/java/de/bps/course/nodes/cl/_spring/buildingblockContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/upgrade/_spring/upgradeContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/gui/control/_spring/navContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/commons/controllers/impressum/_spring/impressumContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/modules/webFeed/_spring/webFeedContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/util/i18n/devtools/_spring/devtoolsCorecontext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/admin/user/tools/_spring/userToolsContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/user/propertyhandlers/_spring/userPropertiesContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/gui/control/_spring/portalContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/commons/coordinate/cluster/_spring/coordinate_jms_activemq.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/statistic/_spring/statisticContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/modules/adobeconnect/_spring/adobeConnectContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/logging/activity/_spring/activityCorecontext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/collaboration/_spring/collaborationToolsContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/ldap/_spring/ldapContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/resource/accesscontrol/provider/paypal/_spring/paypalContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/restapi/_spring/restApiContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/course/db/_spring/coursedbContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/commons/persistence/_spring/databaseCorecontext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/admin/sysinfo/_spring/sysinfoContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/commons/services/thumbnail/_spring/thumbnailserviceContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/ims/_spring/imsContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/commons/calendar/_spring/calendarContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/gui/demo/_spring/guiDemoContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/instantMessaging/_spring/instantMessagingContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/admin/_spring/adminContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/properties/_spring/propertiesContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/home/_spring/homeContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/group/_spring/businessGroupContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/commons/services/notifications/_spring/notificationsContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/modules/_spring/modulesContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/repository/_spring/repositoryContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/modules/reminder/_spring/reminderContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/commons/services/scheduler/_spring/schedulerContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/login/_spring/loginContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/commons/services/_spring/servicesCorecontext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/modules/quality/_spring/qualityContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/modules/library/_spring/libraryContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/modules/coach/_spring/coachContext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/core/util/event/_spring/frameworkStartedEventCorecontext.xml</file>
+          <file>file://$MODULE_DIR$/java/org/olat/resource/_spring/resourceContext.xml</file>
+          <file>file://$MODULE_DIR$/java/de/bps/_spring/bpsContext.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.ws.rs:jakarta.ws.rs-api:2.1.5" level="project" />
+    <orderEntry type="library" name="Maven: io.swagger.core.v3:swagger-annotations:2.0.6" level="project" />
+  </component>
+</module>
