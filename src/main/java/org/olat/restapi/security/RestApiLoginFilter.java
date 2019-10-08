@@ -99,7 +99,6 @@ public class RestApiLoginFilter implements Filter {
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 	throws ServletException {
-
 		if(request instanceof HttpServletRequest) {
 			try {
 				HttpServletRequest httpRequest = (HttpServletRequest)request;
@@ -137,7 +136,11 @@ public class RestApiLoginFilter implements Filter {
 						followBasicAuthenticated(request, response, chain);
 					} else  {
 						httpResponse.setHeader("WWW-Authenticate", "Basic realm=\"" + BASIC_AUTH_REALM + "\"");
-						httpResponse.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+						if(httpRequest.getMethod().equalsIgnoreCase("options")){
+							httpResponse.setStatus(HttpServletResponse.SC_OK);
+						}else {
+							httpResponse.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+						}
 					}
 				}
 			} catch (Exception e) {
