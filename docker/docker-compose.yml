@@ -1,0 +1,37 @@
+version: '2.1'
+
+volumes:
+  edudoor_data:
+    external: true
+
+services:
+  edudoor_backend:
+    container_name: edudoor_backend
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    links:
+      - database
+    volumes:
+      - ../:/usr/app
+    ports:
+      - '5000:8080'
+    depends_on:
+      database:
+        condition: service_healthy
+  database:
+    container_name: edudoor_backend_db
+    build:
+      context: ../
+      dockerfile: docker/mysql/Dockerfile
+    command: --skip-networking
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - edudoor_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
