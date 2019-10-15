@@ -26,8 +26,8 @@ services:
       context: ../
       dockerfile: docker/postgresql/Dockerfile
     environment:
-      POSTGRES_USER: openolat
-      POSTGRES_PASSWORD: openolat
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
       POSTGRES_DB: openolat
     ports:
       - '5433:5432'
